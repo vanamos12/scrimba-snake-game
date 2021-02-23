@@ -1,0 +1,45 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background-color: black;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: dashed 2px gray;
+    margin: 0 auto;
+}
+
+#start{
+    background-color: orange;
+    display: inline-block;
+    padding: 10px 25px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+    border-radius: 10px
+}
+
+.apple {
+    background-color: blue;
+    border-radius: 10px;
+}
